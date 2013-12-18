@@ -88,7 +88,7 @@ class UI(QtGui.QDialog):
 		#
 		self.resize(290,460)
 		self.move(QtGui.QApplication.desktop().screen().rect().center()- self.rect().center())
-		self.setWindowTitle('Numbers Systems - v1.0')
+		self.setWindowTitle('Number Converter - v1.0')
 	def initConversion(self):
 		if self.bin_rad.isChecked():
 			dec = int(str(self.number.text()), 2)
